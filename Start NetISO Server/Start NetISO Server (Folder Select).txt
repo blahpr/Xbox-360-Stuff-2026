@@ -1,0 +1,55 @@
+Xbox 360 NetISO Server - Quick How To
+
+1.  Keep these files together in the same folder:
+
+    server.exe Start NetISO Server (Folder Select).bat
+
+2.  Double-click:
+
+    Start NetISO Server (Folder Select).bat
+
+3.  The first time you run it, select the folder containing your Xbox
+    360 ISO files.
+
+4.  The selected folder is automatically saved in:
+
+    last_folder.txt
+
+5.  The next time you run the BAT, it will automatically use the saved
+    folder and start the NetISO server.
+
+6.  Desktop Shortcut:
+
+    If a Desktop shortcut does not exist, the BAT will ask:
+
+    Would you like to create a Desktop shortcut? (Y/N):
+
+    Press Y to create the Xbox 360 NetISO Server shortcut on your
+    Desktop.
+
+    Press N to skip creating the shortcut and continue normally.
+
+    If the Desktop shortcut already exists, you will not be asked again.
+
+7.  Recreate Desktop Shortcut:
+
+    If the Desktop shortcut is accidentally deleted, run:
+
+    Start NetISO Server (Folder Select).bat
+
+    The BAT will detect that the shortcut is missing and ask if you
+    would like to create it again.
+
+    Press Y to recreate it.
+
+8.  To select a different ISO folder:
+
+    Delete last_folder.txt
+
+    Then run the BAT again and select your new folder.
+
+That’s it!
+
+blahpr
+
+https://github.com/BLAHPR

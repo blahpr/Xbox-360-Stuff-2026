@@ -1,0 +1,7 @@
+1. Edit bat File to Location of XexTool.exe.
+   
+   :: Set the path to your XexTool executable here
+   set "EXE_PATH=D:\Program Files\Xbox 360 Make Trainers\XexTool-windows-x64\XexTool.exe"
+
+2.  Place XEX Simple Info.bat Next to XEX Files. Will Also Check Sub Directories
+    for XEX Files.

@@ -1,0 +1,141 @@
+ __   __       _______          _  
+ \ \ / /      |__   __|        | | 
+  \ V / _____  __| | ___   ___ | | 
+   > < / _ \ \/ /| |/ _ \ / _ \| | 
+  / . \  __/>  < | | (_) | (_) | | 
+ /_/ \_\___/_/\_\|_|\___/ \___/|_| 
+                                  GUI v2.1
+by mLoaD
+Open Sourced & optimized By Serenity							   
+							   								   
+Build and Tested on Windows 10/11 64Bit with .NET Framework 4.8 / .NET 9
+								   
+:: About
+
+XeX MiniGUI for xorloser's latest XeXTool. Thank you for 
+your program and your hard work.
+I've created this little tool so you do not always have 
+to edit default.xex with the command tool.	
+
+XexToolGUI.exe
+--------------
+(CRC/MD5/SHA1: verify against your build)
+==============================================================
+
+How To Read a xex info file:
+
+- Select the xex file 
+- Click Basic or Extended
+- Click Read Info Log
+
+How To Patch and Save:
+
+- Select xex file and (optionally) xexp file
+- Click Save As and choose destination
+- If both xex and xexp are set, file is patched and saved automatically
+
+
+
++ = added  
+- = remove 
+* = fixed  
+
+
+:: History
+
+
+v2.1
+--------------------------------------------------------------
++ Full XexTool v6.3 support (all CLI options in GUI)
++ Logger with timestamps and Save Log to file
++ Save As: when both XEX and XEXP set, patch and save in one step
++ Remove limits: Device ID, Console ID, Dates, Keyvault Privileges
++ Add Bounding Path and Special Patches (Extra menu)
++ XML export fixed (output to file)
++ Patch option: embed patch in output (-u) checkbox
++ Version display updated to v2.1
+
+v2.0 Beta
+--------------------------------------------------------------
+:: changes are now on github
+
+v1.9 Beta
+--------------------------------------------------------------
+:: changes are now on github
+
+v1.8 Beta
+--------------------------------------------------------------
+:: changes are now on github
+
+v1.7 Beta
+--------------------------------------------------------------
+* Optimized By Serenity Project Has Been Open Sourced
+- Usless Help form was Replace With Path of the file
+* bugs fixes
+
+
+v1.6 Beta
+--------------------------------------------------------------
++ added xex compression 
++ added xex uncrypt and encrypt function
++ added idc create funktion for IDA
++ added xex dump function
+* fixed TitleUpdate search bug 
++ added TitleUpdate search function 
+  JQE360 and XBUC webside
+* fixed a bug in the about window
++ added better xex patch function
+  ( xex, xexp files no longer needs to be in the same folder )
++ added new backup function
++ added xex information
+- remove many source code
++ added cmd control for xextool.exe
++ added create xex machine format
+  devkit and retail
++ added complete new ui
++ added more remove options
+  remove bounding pathname
+  remove keyvault privileges restriction
+  remove required revocation check
+  remove Zero media ID
+  remove Ap2.5 (Beta)
+
+
+v1.5
+--------------------------------------------------------------
++ added better backup Function
++ added Remove and Rename Funktion
++ added xextool check
+* fix little UI Bug
+* fix Remove Rename Check Bug
+* fix Backup check Bug
++ update UI
+
+
+v1.1
+--------------------------------------------------------------
++ update UI 
++ added default_mp.xex Backup
++ added default_mp.xex Patch 
+
+
+v1.0
+--------------------------------------------------------------
+= Basic UI
+= Create Backup from default.xex 
+= Remove Region Limits
+  NTSC/U, NTSC/J (Excluded China), PAL and make a 
+  Region Free default.xex
+= Remove Media Limits 
+= Remove Dash Limits
+= Removes the Dash Version check good for old Dash versions.
+= xex Patch with xexp
+  Patch the latest version for your game
+
+
+v0.9
+--------------------------------------------------------------
+
+Closed Release
+
+
